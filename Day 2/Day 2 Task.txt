@@ -1,0 +1,13 @@
+The Document Object
+
+1.The Document object is an instance of the Document class and represents the HTML document that is currently being displayed in the browser. 
+2.It provides access to the content of the document, including its elements, attributes, and text, and provides methods for manipulating that content.
+3.The Document object is also the root of the Document Object Model (DOM), which is a hierarchical tree structure that represents the content and structure of the HTML document. 
+4.By using the DOM, developers can access and modify elements in the HTML document in real-time, which is essential for creating dynamic and interactive web applications.
+
+The Window Object
+
+1.The Window object is an instance of the Window class and represents the browser window that is displaying the HTML document.
+2.It provides access to information about the window, including its size, position, and state, and provides methods for working with the window, such as opening and closing windows.
+3.The Window object also provides access to the global JavaScript context, including the document object, which is a property of the Window object.
+4.the Document object is accessible from the Window object.
