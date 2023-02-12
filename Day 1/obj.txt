@@ -1,0 +1,10 @@
+JavaScript Objects:
+
+1.In JavaScript, objects are defined using the object literal syntax, which involves enclosing a set of property-value pairs in curly braces.
+2.Each property of an object is a key-value pair, where the key is a string and the value can be of any data type, including numbers, strings, booleans, and other objects.
+3.objects are dynamically typed, which means that their properties can be added, removed, or modified at runtime.
+
+Internal Representation of JavaScript Objects:
+
+1.When an object is created in JavaScript, it is stored in memory as a reference. This means that when you assign an object to a variable, you're not actually copying the object itself into the variable, but rather a reference to the object.
+2.objects are passed by reference. This means that when an object is passed as an argument to a function, the function receives a reference to the same object.
