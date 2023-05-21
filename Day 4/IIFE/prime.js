@@ -1,4 +1,4 @@
-var prime=function (arr) {
+(function (arr) {
     arr.forEach(function (num) {
         var isPrime = true;
         for (var i = 2; i <= num / 2; i++) {
@@ -11,5 +11,4 @@ var prime=function (arr) {
             console.log(num);
         }
     });
-}
-prime([1,2,3,4,5,6,7,8,9,10])
+})([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
