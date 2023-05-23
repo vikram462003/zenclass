@@ -1,6 +1,6 @@
 function print(){
     let country=JSON.parse(this.responseText);
-    let filtered=country.filter(coun=>coun.population<200000);
+    let filtered=country.filter(coun=>coun.currencies=="USD");
     console.log(filtered);
 }
 var request=new XMLHttpRequest;
